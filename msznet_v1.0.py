@@ -242,4 +242,4 @@ def MSZNET(input_shape=None, alpha=1.0, include_top=True, input_tensor=None, poo
         else:
             raise ValueError("Unknown argument for 'pooling'=" + pooling)
 
-    return Model(img_input, x, name='MSNET_{}'.format(alpha))
+    return Model(img_input, x, name='MSZNET_{}'.format(alpha))
