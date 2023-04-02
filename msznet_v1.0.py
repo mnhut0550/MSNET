@@ -1,4 +1,4 @@
-#     <MSNET by MNHUT0550. Github: github.com/mnhut0550>
+#     <MSZNET by MNHUT0550. Github: github.com/mnhut0550>
 #     Copyright (C) 2023  MNHUT0550
 
 #     This program is free software: you can redistribute it and/or modify
@@ -84,7 +84,7 @@ def preprocessing_input(image):
 
 #----------model
 
-def MSNET(input_shape=None, alpha=1.0, include_top=True, input_tensor=None, pooling=None, classes=1000):
+def MSZNET(input_shape=None, alpha=1.0, include_top=True, input_tensor=None, pooling=None, classes=1000):
         
     assert alpha in [.25, .5, .75, 1.], "alpha must be 0.25, 0.5, 0.75 or 1.0 but found alpha = {}".format(alpha)
     
