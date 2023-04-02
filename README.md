@@ -1,4 +1,4 @@
-# MSNET
-MSNET: Mcu-SqueezeNET
+# MSZNET
+MSZNET: Mcu-SqueeZeNET
 
-MSNET is a architecture base on SqueezeNet v1.1, but it has beedn editted to use on Micro Controllers Unit. With small parameters but the accuracy still okay and model size is friendly for Micro-Controllers Unit memory.
+MSZNET is a architecture base on SqueezeNet v1.1, but it has beedn editted to use on Micro Controllers Unit. With small parameters but the accuracy still okay and model size is friendly for Micro-Controllers Unit memory.
