@@ -1,0 +1,2 @@
+# MSNET
+MSNET: Mcu-SqueezeNET
