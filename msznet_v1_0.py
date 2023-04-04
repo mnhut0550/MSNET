@@ -73,9 +73,9 @@ def fire_module(x, fire_id, squeeze=16, expand=64, alpha=1.0):
     x = concatenate([left, right], axis=channel_axis, name=s_id + "concat")
     return x
 
-#---------preprocessing_input
+#---------preprocess_input
 
-def preprocessing_input(image):
+def preprocess_input(image):
     image -= 127.5
     image /= 127.5
 
