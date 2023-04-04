@@ -68,7 +68,7 @@ def fire_module(x, fire_id, squeeze=16, expand=64, alpha=1.0):
     right = ReLU(6. , name=s_id + "relu_expand_3x3_dw")(right)
 
     right = Convolution2D(expand_filters, (1,1), padding='same', name=s_id + "expand_3x3_conv")(right)
-    right = ReLU(6. , name=s_id + "relu_expand_3x3_dw")(right)
+    right = ReLU(6. , name=s_id + "relu_expand_3x3_conv")(right)
 
     x = concatenate([left, right], axis=channel_axis, name=s_id + "concat")
     return x
